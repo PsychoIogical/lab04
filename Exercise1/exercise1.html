@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Exercise 1 Lab 04</title>
+  <style type="text/css">
+    table, td{
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+    <?php
+    echo "<table>";
+    for($i = 1 ; $i <= 100 ; $i++) {
+      echo "<tr>";
+      for($j = 1 ; $j <= 100 ; $j++) {
+        echo "<td>" . $i*$j . "</td>";
+      }
+      echo "</tr>";
+    }
+    echo multiplyTable() . "</table>";
+    ?>
+    
+</body>
+</html>
