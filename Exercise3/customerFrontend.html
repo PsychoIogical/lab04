@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Exercise 3</title>
+    <script type="text/javascript"
+	    src="formChecker.js"></script>
+    <link type="text/css"
+	  rel="stylesheet"
+	  href="style.css"/>
+  </head>
+  <body>
+    <h1>Welcome to Block Plaza!</h1>
+    <form action="customerBackend.php" method="post">
+      Username: <input type="text" class="name"  id="user" placeholder="Username"> <br>
+      Password: <input type="password" id="password" placeholder="password"> <br>
+      <br>
+      What kind of blocks would you like today? And how many?<br>
+      All blocks are naturally made, with no harmful elements.<br>
+      Blue: <input type="text" id="blue"> <br>
+      Red: <input type="text" id="red"> <br>
+      Green: <input type="text" id="green"> <br>
+      Yellow: <input type="text" id="yellow"> <br>
+      <br>
+      How would you like these blocks to be shipped to you? <br>
+      <input type="radio" name="shipping" value="free" checked>Free Seven Day Shipping <br>
+      <input type="radio" name="shipping" value="overnight">$40 Overnight Shipping <br>
+      <input type="radio" name="shipping" value="two">$20 Two Day Shipping <br>
+      <input type="reset" name="Reset Form">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
