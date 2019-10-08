@@ -50,35 +50,35 @@ echo "<table><tr>
 echo "<tr>
       <td class=\"desc\"><b>Blue</b></td>
       <td>" . $blue . "</td>
-      <td>" . $blueCost . "</td>
-      <td>" . $blueSubTotal . "</td>
+      <td>$" . $blueCost . ".00</td>
+      <td>$" . $blueSubTotal . ".00</td>
       </tr>";
 echo "<tr>
       <td class=\"desc\"><b>Red</b></td>
       <td>" . $red . "</td>
-      <td>" . $redCost . "</td>
-      <td>" . $redSubTotal . "</td>
+      <td>$" . $redCost . ".00</td>
+      <td>$" . $redSubTotal . ".00</td>
       </tr>";
 echo "<tr>
       <td class=\"desc\"><b>Green</b></td>
       <td>" . $green . "</td>
-      <td>" . $greenCost . "</td>
-      <td>" . $greenSubTotal . "</td>
+      <td>$" . $greenCost . ".00</td>
+      <td>$" . $greenSubTotal . ".00</td>
       </tr>";
 echo "<tr>
       <td class=\"desc\"><b>Yellow</b></td>
       <td>" . $yellow . "</td>
-      <td>" . $yellowCost . "</td>
-      <td>" . $yellowSubTotal . "</td>
+      <td>$" . $yellowCost . ".00</td>
+      <td>$" . $yellowSubTotal . ".00</td>
       </tr>";
 echo "<tr>
       <td class=\"desc\"><b>Shipping</b></td>
       <td colspan=\"2\">" . $shipping . "</td>
-      <td>" . $shippingCost . "</td>
+      <td>$" . $shippingCost . ".00</td>
       </tr>";
 echo "<tr>
       <td class=\"desc\" colspan=\"3\"><b>Total Cost</b></td>
-      <td class=\"desc\">" . $totalCost . "</td>
+      <td class=\"desc\">$" . $totalCost . ".00</td>
       </tr></table>";
 echo "<br><h3>Thank you for your purchase, have a great day!</h3><br>";
 ?>
