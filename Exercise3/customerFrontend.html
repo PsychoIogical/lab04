@@ -10,16 +10,16 @@
   </head>
   <body>
     <h1>Welcome to Block Plaza!</h1>
-    <form action="customerBackend.php" method="post">
-      Username: <input type="text" class="name"  id="user" placeholder="Username"> <br>
-      Password: <input type="password" id="password" placeholder="password"> <br>
+    <form name="blockForm" action="customerBackend.php" onsubmit="return validate()" method="post">
+      Username: <input type="text" class="name"  name= "user" id="user" placeholder="Username" required> <br>
+      Password: <input type="password" name="password" id="password" placeholder="password" required> <br>
       <br>
       What kind of blocks would you like today? And how many?<br>
       All blocks are naturally made, with no harmful elements.<br>
-      Blue: <input type="text" id="blue"> <br>
-      Red: <input type="text" id="red"> <br>
-      Green: <input type="text" id="green"> <br>
-      Yellow: <input type="text" id="yellow"> <br>
+      Blue: <input type="text" name="blue" id="blue"> <br>
+      Red: <input type="text" name="red" id="red"> <br>
+      Green: <input type="text" name="green" id="green"> <br>
+      Yellow: <input type="text" name="yellow" id="yellow"> <br>
       <br>
       How would you like these blocks to be shipped to you? <br>
       <input type="radio" name="shipping" value="free" checked>Free Seven Day Shipping <br>
